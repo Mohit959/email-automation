@@ -525,7 +525,6 @@ This project is open source and available under the MIT License.
 ## 👤 Author
 
 **Mohit Saini**  
-Email: mohitmssaini1@gmail.com
 
 ## 📞 Support
 

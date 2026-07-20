@@ -1,0 +1,11 @@
+{
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "excel_file": "Dev.xlsx",
+    "email_column": "email",
+    "name_column": "name",
+    "active_column": "active",
+    "subject_template": "Application for Data Engineer role",
+    "body_template_file": "email_template.txt",
+    "attachment_file": "Resume_Mohit.pdf"
+}

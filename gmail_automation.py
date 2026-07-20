@@ -77,10 +77,10 @@ class GmailAutomation:
                 return template
             else:
                 self.logger.warning(f"Template file '{template_file}' not found. Using default template.")
-                return "Hi,\n\nThis is an automated email.\n\nBest regards,\nMohit Saini\nmohitmssaini1@gmail.com"
+                return "Hi,\n\nThis is an automated email.\n\nBest regards,\nMohit Saini\n
         except Exception as e:
             self.logger.error(f"Error loading email template: {e}")
-            return "Hi,\n\nThis is an automated email.\n\nBest regards,\nMohit Saini\nmohitmssaini1@gmail.com"
+            return "Hi,\n\nThis is an automated email.\n\nBest regards,\nMohit Saini\n"
     
     def read_excel_data(self):
         """Read data from Excel file"""
